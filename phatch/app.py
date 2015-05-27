@@ -148,6 +148,7 @@ Please install the graphical user interface package 'phatch' as well.
 
 def import_pyWx():
     try:
+        import phatch
         from pyWx import gui
     except ImportError:
         sys.exit(PYWX_ERROR)
